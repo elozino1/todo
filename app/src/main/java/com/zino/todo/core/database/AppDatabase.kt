@@ -1,4 +1,15 @@
 package com.zino.todo.core.database
 
-class AppDatabase {
+import androidx.room.Database
+import androidx.room.RoomDatabase
+import com.zino.todo.core.database.dao.UserDao
+import com.zino.todo.core.database.entity.UserEntity
+
+@Database(
+    version = 1,
+    entities = [UserEntity::class],
+    exportSchema = false
+)
+abstract class AppDatabase: RoomDatabase() {
+    abstract fun getUserDao(): UserDao
 }

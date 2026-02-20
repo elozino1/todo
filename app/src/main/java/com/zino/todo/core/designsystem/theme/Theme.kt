@@ -1,6 +1,5 @@
-package com.zino.todo.ui.theme
+package com.zino.todo.core.designsystem.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

@@ -1,4 +1,4 @@
-package com.zino.todo.ui.theme
+package com.zino.todo.core.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
