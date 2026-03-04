@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Todo</string>
+<!--    login-->
+    <string name="login_text">Login</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="no_account_text">No account?</string>
+    <string name="register_text">Register</string>
+<!--    image description-->
+    <string name="logo_description">Todo Image Logo</string>
 </resources>
