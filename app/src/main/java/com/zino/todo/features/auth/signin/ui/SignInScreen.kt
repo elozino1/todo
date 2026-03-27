@@ -1,4 +1,4 @@
-package com.zino.todo.features.auth.ui
+package com.zino.todo.features.auth.signin.ui
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
@@ -47,7 +47,7 @@ fun SignInScreen(
             modifier = modifier
                 .fillMaxSize()
                 .padding(innerPadding)
-                .padding(horizontal = AppTheme.dimens.largeSpace)
+                .padding(horizontal = AppTheme.dimens.screenHorizontalPadding)
                 .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -86,7 +86,7 @@ fun SignInScreen(
                     password = it
                 }
             )
-            Spacer(modifier = Modifier.height(AppTheme.dimens.xLargeSpace))
+            Spacer(modifier = Modifier.height(AppTheme.dimens.xlargeSpace))
             TTextButton(
                 text = stringResource(R.string.login_text),
                 onClick = { Toast.makeText(context, "Login", Toast.LENGTH_LONG).show() }

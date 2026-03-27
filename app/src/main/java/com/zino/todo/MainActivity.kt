@@ -12,7 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.zino.todo.core.designsystem.theme.TodoTheme
-import com.zino.todo.features.auth.ui.SignInScreen
+import com.zino.todo.features.auth.signin.ui.SignInScreen
+import com.zino.todo.features.auth.signup.ui.SignupScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +34,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier) {
-    SignInScreen(modifier)
+//    SignInScreen(modifier)
+    SignupScreen(modifier)
 }
 
 @Preview(showBackground = true)

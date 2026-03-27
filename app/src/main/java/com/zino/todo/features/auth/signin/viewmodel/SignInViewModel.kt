@@ -1,4 +1,4 @@
-package com.zino.todo.features.auth.viewmodel
+package com.zino.todo.features.auth.signin.viewmodel
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel

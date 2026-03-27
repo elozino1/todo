@@ -11,13 +11,17 @@ data class TDimensions(
     val paddingMedium: Dp = 8.dp,
     val paddingLarge: Dp = 16.dp,
     val screenPadding: Dp = 20.dp,
+    val screenVerticalPadding: Dp = 20.dp,
+    val screenHorizontalPadding: Dp = 12.dp,
 
     // space
+    val xxsmallSpace: Dp = 1.dp,
+    val xsmallSpace: Dp = 2.dp,
     val smallSpace: Dp = 4.dp,
     val mediumSpace: Dp = 8.dp,
     val largeSpace: Dp = 12.dp,
-    val xLargeSpace: Dp = 20.dp,
-    val xxLargeSpace: Dp = 30.dp,
+    val xlargeSpace: Dp = 20.dp,
+    val xxlargeSpace: Dp = 30.dp,
 
     //button
     val buttonHeight: Dp = 48.dp,
